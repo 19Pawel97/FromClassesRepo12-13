@@ -14,6 +14,7 @@ public class Main {
         cats.add(cat3);
         for (Cat cat: cats) {
             cat.makeSound();
+            cat.eatMouse();
         }
     }
 }
