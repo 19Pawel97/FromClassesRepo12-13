@@ -16,5 +16,17 @@ public class Main {
             cat.makeSound();
             cat.eatMouse();
         }
+
+        Dog dog1 = new  Dog ("Burek");
+        Dog dog2 = new  Dog ("Wałęsa");
+        Dog dog3 = new  Dog ("Reksio");
+
+        List<Dog> dogs = new ArrayList<>();
+        dogs.add(dog1);
+        dogs.add(dog2);
+        dogs.add(dog3);
+        for (Dog dog: dogs) {
+            dog.makeSound();
+        }
     }
 }
