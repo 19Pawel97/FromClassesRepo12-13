@@ -39,5 +39,8 @@ public class Main {
         for (AnimalSound animalSound : animalSounds) {
             animalSound.makeSound();
         }
+
+        Car car1 = new Car();
+        car1.move();
     }
 }
