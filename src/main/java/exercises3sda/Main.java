@@ -1,6 +1,7 @@
 package exercises3sda;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -56,5 +57,21 @@ public class Main {
         System.out.println();
         vet.universalSayHello(dog1);
         vet.universalSayHello(cat1);
+
+        Rectangle rectangle = new Rectangle(25d,20d);
+        Triangle triangle = new Triangle(12d,22);
+        Circle circle = new Circle(12);
+
+        System.out.println(rectangle.getArea());
+        System.out.println(triangle.getArea());
+        System.out.println(circle.getArea());
+
+        List<GetArea> myFigures = new LinkedList<>();
+        myFigures.add(rectangle);
+        myFigures.add(triangle);
+        myFigures.add(circle);
+
+        double result = AreaCounter.countArea(myFigures);
+        System.out.println(result);
     }
 }
