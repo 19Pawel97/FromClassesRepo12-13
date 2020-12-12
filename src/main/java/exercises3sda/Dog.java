@@ -4,7 +4,7 @@ package exercises3sda;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Dog {
+public class Dog implements AnimalSound {
     @Getter
     @Setter
     private String name;
@@ -12,7 +12,7 @@ public class Dog {
     public Dog (String name) {
         this.name = name;
     }
-
+    @Override
     public void makeSound() {
         System.out.println(this.name + " goes woof woof!!!");
     }
