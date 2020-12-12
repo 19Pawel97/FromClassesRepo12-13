@@ -44,5 +44,11 @@ public class Main {
         car1.move();
 
         cat1.move();
+
+        Vet vet = new Vet();
+
+        vet.sayHello(cat1);
+        vet.sayHello(cat2);
+        vet.sayHello(cat3);
     }
 }
