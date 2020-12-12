@@ -53,5 +53,8 @@ public class Main {
         vet.sayHello(dog1);
         vet.sayHello(dog2);
         vet.sayHello(dog3);
+        System.out.println();
+        vet.universalSayHello(dog1);
+        vet.universalSayHello(cat1);
     }
 }

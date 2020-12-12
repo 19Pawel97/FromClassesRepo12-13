@@ -9,4 +9,8 @@ public class Vet {
     public void sayHello(Dog dog) {
         System.out.println("Hello " +  dog.getName() + "!");
     }
+
+    public void universalSayHello (Animal animal) {
+        System.out.println("Hello " + animal.getName());
+    }
 }

@@ -4,7 +4,7 @@ package exercises3sda;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Dog implements AnimalSound {
+public class Dog extends Animal implements AnimalSound {
     @Getter
     @Setter
     private String name;
