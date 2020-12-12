@@ -50,5 +50,8 @@ public class Main {
         vet.sayHello(cat1);
         vet.sayHello(cat2);
         vet.sayHello(cat3);
+        vet.sayHello(dog1);
+        vet.sayHello(dog2);
+        vet.sayHello(dog3);
     }
 }
