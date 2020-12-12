@@ -42,5 +42,7 @@ public class Main {
 
         Car car1 = new Car();
         car1.move();
+
+        cat1.move();
     }
 }

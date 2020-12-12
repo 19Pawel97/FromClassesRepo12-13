@@ -3,7 +3,7 @@ package exercises3sda;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Cat implements AnimalSound{
+public class Cat implements AnimalSound, Movable{
     @Setter
     @Getter
     private String name;
@@ -26,5 +26,10 @@ public class Cat implements AnimalSound{
     public void eatMouse() {
         this.miceCounter ++;
         System.out.println("I ate " + this.miceCounter + " mice!");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("I'm going!");
     }
 }
