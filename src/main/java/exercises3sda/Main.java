@@ -73,5 +73,12 @@ public class Main {
 
         double result = AreaCounter.countArea(myFigures);
         System.out.println(result);
+
+        double myArea = 1200.435d;
+        if (AreaCounter.checkArea(myArea,myFigures)) {
+            System.out.println("Ur good to go!");
+        } else {
+            System.out.println("Buy more!!!");
+        }
     }
 }
